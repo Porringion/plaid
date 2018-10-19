@@ -61,9 +61,3 @@ dependencies {
     androidTestImplementation "com.android.support:support-core-utils:${versions.supportLibrary}"
     androidTestImplementation "android.arch.lifecycle:runtime:${versions.lifecycle}"
 }
-
-kotlin {
-    experimental {
-        coroutines "enable"
-    }
-}
